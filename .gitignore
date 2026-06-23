@@ -1,0 +1,25 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Project Data (Never push raw datasets or heavy logs)
+data/raw/
+data/processed/filtered_complaints.csv
+data/processed/sample_data.csv
+
+# Local Vector Database Store
+vector_store/
+
+# IDE Configurations
+.vscode/
+.idea/
+.DS_Store
