@@ -64,7 +64,7 @@ nbformat==5.10.4
 nest-asyncio2==1.7.2
 notebook==7.6.0
 notebook_shim==0.2.4
-numpy==2.4.6
+numpy==1.26.4
 packaging==26.2
 pandas==3.0.3
 pandocfilters==1.5.1
@@ -110,8 +110,8 @@ webcolors==25.10.0
 webencodings==0.5.1
 websocket-client==1.9.0
 widgetsnbextension==4.0.15
-chromadb
-langchain-text-splitters
-pytest
-streamlit
-huggingface_hub
+chromadb==0.5.3
+langchain-text-splitters==0.2.0
+pytest==8.2.2
+streamlit==1.35.0
+huggingface_hub=0.23.4
